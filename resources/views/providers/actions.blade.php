@@ -1,0 +1,2 @@
+<button type="button" class="btn btn-sm btn-clean showLogs" data-id="{{ $row->id }}" data-type="user" title="الحركات"><i class="flaticon-list"></i></button>
+<a href="{{ route('providers.show', $row->id) }}" class="btn btn-sm btn-clean" title="مشاهدة"><i class="flaticon2-expand"></i></a>
